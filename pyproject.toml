@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exercism"
+version = "0.1.0"
+description = "learn python with exercism"
+authors = ["vpn7777 <vpn7777@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.2"
+pytest-cache = "^1.0"
+pytest-subtests = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
